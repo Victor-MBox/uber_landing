@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>КОМПАНИЯ UBER PARTNERS</title>
+    <title>Компания UBER Partners</title>
 </head>
 
 <body>
 
     <!-- Header -->
-    <header>
+    <header class="header">
         <nav>
             <div class="container">
                 <ul class="menu">
@@ -30,33 +30,39 @@
                     <li><a href="#">Оставить заявку</a></li>
                 </ul>
             </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
 
         <div class="subheader">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-4 offset-md-1">
+                    <div class="col-6 col-md-4 offset-md-1">
                         <a href="#" class="subheader_logo"><img src="/img/Uber.png" alt=""></a>
                         <div class="subheader_official">Официальный партнер Uber в Москве</div>
                     </div>
-                    <div class="col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+                    <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                         <div class="subheader_coll">Звоните нам ежедневно</div>
                         <div class="subheader_phone"><a href="tel:+74957970988">8 495 797 09 88</a>
                         </div>
                     </div>
-                    <div class="col-md-2">
-                        <button class="subheader_btn">заказать звонок</button>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <div class="subheader_phone xs-visible"><a href="tel:+74957970988">8 495 797 09 88</a></div>
+                            <button class="subheader_btn subheader_btn-991">заказать звонок</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </header>
 
     <!-- Главный экран -->
     <section class="promo">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
                     <h1 class="promo_header">КОМПАНИЯ UBER PARTNERS!</h1>
                     <h2 class="promo_subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
                     <p class="promo_text ">Компания UBER динамически развивающаяся. Компания на рынке занимает
@@ -383,6 +389,7 @@
         </div>
     </footer>
 
+    <script src="js/app.js"></script>
 </body>
 
 </html>

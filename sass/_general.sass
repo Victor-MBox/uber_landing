@@ -54,6 +54,9 @@ li
             &:after, &:before
                 width: 100%
 
+.hamburger
+    display: none
+
 .subheader
     margin-top: 53px
     height: 87px
@@ -63,6 +66,10 @@ li
     position: relative
     z-index: 2
     text-align: right
+    .container
+        .row
+            .col-md-4
+                text-align-last: left
     &_logo
         max-width: 100%
         img
@@ -119,6 +126,9 @@ li
             background: linear-gradient(0deg, #1b8aa1 0%, #33b9d3 100%)
         &:active
             box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.32)
+
+.xs-visible
+    display: none
 
 /* Главный экран */
 .promo
