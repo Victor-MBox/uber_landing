@@ -237,7 +237,7 @@ li {
   align-content: center;
 }
 
-.advantages .col-6 {
+.advantages .col-md-6 {
   display: flex;
   margin-bottom: 26px;
 }
@@ -872,7 +872,7 @@ li {
     margin-bottom: 6px;
     background: #fff;
     border-radius: 90px;
-    transition: .7s all;
+    transition: .4s all;
   }
   .hamburger span:last-child {
     margin-bottom: 0;
@@ -896,7 +896,8 @@ li {
     display: none;
   }
   .subheader_phone {
-    margin-right: 5%;
+    margin-right: 8%;
+    margin-bottom: 4px;
   }
   .subheader_phone a {
     font-size: 18px;
@@ -913,5 +914,36 @@ li {
   }
   .xs-visible {
     display: inline-block;
+  }
+  .promo_text {
+    margin-bottom: 60px;
+  }
+  .advantages_col-left {
+    width: 20%;
+    height: 98px;
+  }
+  .advantages_col-right {
+    width: 80%;
+  }
+  .cart {
+    width: 70%;
+    height: 300px;
+    margin: 14px auto;
+  }
+  .possibilities_section-1 {
+    background: #070716;
+    height: 435px;
+  }
+  .possibilities_section-2 img {
+    margin-top: -234px;
+  }
+  .conditions .row .col-12 {
+    margin-bottom: 34px;
+  }
+  .conditions .row .col-12:first-child {
+    margin-bottom: 0;
+  }
+  .sity .container {
+    height: 260px;
   }
 }
